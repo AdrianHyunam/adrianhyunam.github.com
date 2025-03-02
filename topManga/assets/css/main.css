@@ -1,0 +1,143 @@
+/*Paleta de colores
+BLANCO: #FFFFFF
+FONDO1: #6688AF
+FONDO2: #BC7283
+ACENTUACION: #D6CC92
+TEXTO: #1A2633
+*/
+
+html{
+  font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  color: #1A2633;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+td:hover, th:hover, .titulo:hover, .subtitulo:hover{
+  cursor: default;
+}
+
+td, th{
+   border: solid 0px;
+}
+
+.titulo{
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.subtitulo{
+  margin-top: 10px;
+  text-align: left;
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  font-style: normal;
+  border-bottom: #D6CC92 solid 5px;
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+}
+
+.position{
+  background-color: #D6CC92;
+  padding: 10px;
+  border-radius: 2em;
+  margin-right: 0.5em;
+}
+
+.text{
+  font-size: 20px;
+}
+
+.main-image{
+  float: left;
+  margin-right: 1em;
+  height: 340px;
+}
+
+.fa-heart{
+  color: #BC7283;
+}
+
+.fa-file-circle-exclamation{
+  color: #B03652;
+}
+
+.t1{
+  margin-left: 1em;
+  width: 96%;
+  border-spacing: 1px;
+}
+
+.t1 td{
+  padding: 4px;
+  text-align: left;
+}
+
+.t1 .verM{
+  text-align: center;
+}
+
+.t1 th{
+  font-size: 20px;
+  text-align: center;
+}
+
+.t1 tr:nth-child(even){
+  background-color: #DBD6D6;
+}
+
+.container{
+  background: #BC7283; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6688AF, #BC7283); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6688AF, #BC7283); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 97.4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  max-width: 1000px;
+  max-height: 450px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  background-color: #F7F3F3;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 4px;
+  position: relative;
+  padding: 1em;
+}
+
+.action{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.close{
+  color: #D6CC92;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.derecho{
+  background: #BC7283; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6688AF, #BC7283); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6688AF, #BC7283); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  align-items: center;
+  justify-content: center;
+}
