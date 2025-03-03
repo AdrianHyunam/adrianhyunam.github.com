@@ -108,7 +108,6 @@ td, th{
 }
 
 .content{
-  max-width: 960px;
   width: 100%;
   height: 100vh;
   margin-bottom:5px;
@@ -158,13 +157,13 @@ th{
   justify-content: center;
 }
 
-@media (min-height: 550px) {
+@media (min-height: 500px) {
   .content{
-    height: 500px;
+    height: 750px;
   }
 }
 
-@media (min-width:900px) {
+@media (min-width:700px) {
   .t1{
     margin-left: 1em;
     width: 95%;
@@ -183,6 +182,8 @@ th{
     color: #BC7283;
   }
   .content{
+    max-width: 960px;
+    max-height: 500px;
     margin-bottom: 10px;
     padding: 1.2em;
   }
