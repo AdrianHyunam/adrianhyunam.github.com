@@ -50,6 +50,10 @@ td, th{
   margin-bottom: 1em;
 }
 
+.creador{
+  font-weight: bold;
+}
+
 .position{
   background-color: #D6CC92;
   padding: 0.3em;
