@@ -43,7 +43,7 @@ td, th{
   text-align: left;
   font-family: "Bungee Spice", sans-serif;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 12px;
   font-style: normal;
   border-bottom: #D6CC92 solid 5px;
   padding-bottom: 1em;
@@ -67,20 +67,20 @@ td, th{
 
 .fa-heart{
   color: #BC7283;
+  font-size: 1.5em;
 }
 
 .fa-file-circle-exclamation{
   color: #B03652;
+  font-size: 1.5em;
 }
 
 .t1{
-  margin-left: 1em;
-  width: 96%;
-  border-spacing: 1px;
+  width: 100%;
+  border-spacing: 1em;
 }
 
 .t1 td{
-  padding: 2px;
   text-align: left;
 }
 
@@ -125,7 +125,7 @@ td{
   width: 100%;
 }
 td:nth-of-type(1){
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
   color: #BC7283;
 }
@@ -165,6 +165,11 @@ th{
 }
 
 @media (min-width:900px) {
+  .t1{
+    margin-left: 1em;
+    width: 95%;
+    border-spacing: 1px;
+  }
   th{
     display: table-cell;
   }
@@ -191,6 +196,12 @@ th{
     border-bottom: #D6CC92 solid 5px;
     padding-bottom: 25px;
     margin-bottom: 10px;
+  }
+  .fa-heart{
+    font-size: 10px;
+  }
+  .fa-file-circle-exclamation{
+    font-size: 1em;
   }
   .main-image{
     float: left;
