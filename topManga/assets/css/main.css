@@ -50,7 +50,7 @@ td, th{
   margin-bottom: 1em;
 }
 
-.creador{
+.creador, .publicado, .sup{
   font-weight: bold;
 }
 
@@ -77,6 +77,10 @@ td, th{
 .fa-file-circle-exclamation{
   color: #B03652;
   font-size: 1.5em;
+}
+
+.fa-eye{
+  color: #B03652;
 }
 
 .t1{
@@ -112,6 +116,7 @@ td, th{
 }
 
 .content{
+  --animate-duration: 2.5s;
   width: 100%;
   height: 100vh;
   margin-bottom:5px;
