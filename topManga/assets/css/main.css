@@ -111,6 +111,7 @@ td, th{
   background: linear-gradient(to right, #6688AF, #BC7283); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -155,15 +156,7 @@ th{
 }
 
 .derecho{
-  background: #BC7283; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6688AF, #BC7283); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #6688AF, #BC7283); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  display: flex;
-  margin-top: 0px;
-  margin-bottom: 0px;
   font-size: 10px;
-  align-items: center;
-  justify-content: center;
 }
 
 @media (min-height: 500px) {
