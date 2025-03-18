@@ -40,7 +40,7 @@ irHome.forEach(function(vamos){
 });
 
 window.addEventListener('popstate', function(event) {
-        history.back();
+        location.href ='../';
 
         history.pushState(null, null, window.location.pathname);
 
