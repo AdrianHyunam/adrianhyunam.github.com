@@ -39,9 +39,6 @@ irHome.forEach(function(vamos){
 
 });
 
-window.addEventListener('popstate', function(event) {
-        location.href ='../';
-
-        history.pushState(null, null, window.location.pathname);
-
-}, false);
+document.addEventListener('swiped',function(e){
+ location.href = "../";
+});
