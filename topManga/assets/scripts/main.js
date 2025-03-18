@@ -38,7 +38,3 @@ irHome.forEach(function(vamos){
     });
 
 });
-
-document.addEventListener('swiped',function(e){
- location.href = "../";
-});
