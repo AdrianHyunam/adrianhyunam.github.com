@@ -38,3 +38,10 @@ irHome.forEach(function(vamos){
     });
 
 });
+
+window.addEventListener('popstate', function(event) {
+        history.back();
+
+        history.pushState(null, null, window.location.pathname);
+
+}, false);
