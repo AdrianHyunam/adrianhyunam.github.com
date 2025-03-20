@@ -1,0 +1,132 @@
+/*
+colores
+fondo prim: #F490BB
+fondo sec: #FFFFFF 
+texto 1: #6A97A9
+texto 2: #460F27
+realse: #F9E290
+textos: #37061B
+*/
+
+.ima:hover{
+    opacity: 20%;
+    cursor: pointer;
+    animation: jello;
+    animation-duration: 1s;
+}
+
+.ima{
+    float: left;
+    margin: 10px;
+    height: 80px;
+}
+
+.titulo{
+    background-image: linear-gradient(#FFFFFF ,#F490BB);
+    font-family: "Lily Script One", system-ui;
+    font-size: 80px;
+    color:#6A97A9;
+    text-align: center;
+    border-bottom: solid;
+    border-color: hotpink;
+}
+
+.menu{
+    background-color: #F490BB;    
+}
+
+.fa-image{
+    font-size: 200px;
+    margin: 10px;
+}
+
+.fa-image:hover{
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+ul{
+    font-family: "Bellota", system-ui;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F490BB;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #37061B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: hotpink;
+}
+
+
+.reel{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.desc{
+    padding: 1em;
+}
+
+.card{
+    width: 300px;
+    margin: 10px auto;
+    border-radius: 1em;
+}
+
+.card-cont{
+    border: 0 0 1em 1em;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.card-tit{
+    margin: 10px;
+}
+
+.card-parag{
+    line-height: 1.5;
+}
+
+.card-butt{
+    display: inline-block;
+    background-color: #6A97A9;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 2em;
+}
+
+.card-butt:hover{
+    opacity: 50%;
+}
+
+.caja{
+    font-family: "Bellota", system-ui;
+    background-color: #F490BB;
+    color: #37061B;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    color: #37061B;
+    font-family: "Bellota", system-ui;
+    font-weight: 700;
+    font-size: 15px;
+}
